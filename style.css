@@ -678,3 +678,102 @@ body {
         padding: 40px 20px;
     }
 }
+
+/* ==================== CONTENT PAGES (Impressum, Datenschutz) ==================== */
+.content-page {
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #f5f5f5 0%, #fff 100%);
+}
+
+.content-page h1 {
+    font-size: 3rem;
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 3rem;
+    position: relative;
+    padding-bottom: 1rem;
+}
+
+.content-page h1::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 4px;
+    background: var(--accent-color);
+    border-radius: 2px;
+}
+
+.content-page h2 {
+    font-size: 2rem;
+    color: var(--dark-color);
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.5rem;
+}
+
+.content-page h3 {
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.content-page p {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.content-page ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 1rem;
+}
+
+.content-page ul li {
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+.content-page a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.content-page a:hover {
+    text-decoration: underline;
+    color: var(--accent-color);
+}
+
+@media (max-width: 768px) {
+    .content-page h1 {
+        font-size: 2.5rem;
+    }
+    .content-page h2 {
+        font-size: 1.8rem;
+    }
+    .content-page h3 {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .content-page h1 {
+        font-size: 2rem;
+    }
+    .content-page h2 {
+        font-size: 1.5rem;
+    }
+    .content-page h3 {
+        font-size: 1.2rem;
+    }
+    .content-page {
+        padding: 40px 20px;
+    }
+}
