@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>a tavola! - Pizza & Pasta in Frankfurt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">a tavola!</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Startseite</a></li>
+                <li><a href="#menu" class="nav-link">Speisekarte</a></li>
+                <li><a href="#about" class="nav-link">Über uns</a></li>
+                <li><a href="#contact" class="nav-link">Kontakt</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>a tavola!</h1>
+            <p>Authentische italienische Pizza & Pasta in Frankfurt</p>
+            <a href="#menu" class="cta-button">Zur Speisekarte</a>
+        </div>
+    </section>
+
+    <!-- Featured Dishes -->
+    <section class="featured">
+        <div class="container">
+            <h2>Unsere Spezialitäten</h2>
+            <div class="featured-grid">
+                <div class="featured-card">
+                    <img src="assets/pasta.jpg" alt="Spaghetti Carbonara">
+                    <h3>Spaghetti Carbonara</h3>
+                    <p>Klassische italienische Pasta mit Ei, Speck und Pecorino Romano</p>
+                    <span class="price">€18,50</span>
+                </div>
+                <div class="featured-card">
+                    <img src="assets/pizza.jpg" alt="Pizza Margherita">
+                    <h3>Pizza Margherita</h3>
+                    <p>Frischer Teig mit Tomaten, Mozzarella und Basilikum</p>
+                    <span class="price">€14,00</span>
+                </div>
+                <div class="featured-card">
+                    <img src="assets/interior.jpg" alt="Restaurant Interior">
+                    <h3>Gemütliche Atmosphäre</h3>
+                    <p>Genießen Sie italienisches Flair in entspannter Umgebung</p>
+                    <span class="price">Reservierung</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2>Speisekarte</h2>
+            
+            <div class="menu-categories">
+                <!-- Pizzas -->
+                <div class="menu-category">
+                    <h3>🍕 Pizzas</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Margherita</h4>
+                                <span class="price">€12,00</span>
+                            </div>
+                            <p>Tomaten, Mozzarella, Basilikum</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Salami</h4>
+                                <span class="price">€14,00</span>
+                            </div>
+                            <p>Tomaten, Mozzarella, Salami</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Quattro Formaggi</h4>
+                                <span class="price">€15,50</span>
+                            </div>
+                            <p>Vier verschiedene Käsesorten</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Carnivore</h4>
+                                <span class="price">€16,00</span>
+                            </div>
+                            <p>Salami, Speck, Schinken, Hackfleisch</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Vegetariana</h4>
+                                <span class="price">€13,50</span>
+                            </div>
+                            <p>Gemüse, Pilze, Oliven, Paprika</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pastas -->
+                <div class="menu-category">
+                    <h3>🍝 Pastas</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Spaghetti Carbonara</h4>
+                                <span class="price">€18,50</span>
+                            </div>
+                            <p>Mit Ei, Speck und Pecorino Romano</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Spaghetti Bolognese</h4>
+                                <span class="price">€17,00</span>
+                            </div>
+                            <p>Mit Hackfleischsauce und Parmesan</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Penne all'Arrabbiata</h4>
+                                <span class="price">€16,50</span>
+                            </div>
+                            <p>Mit scharfer Tomaten-Chili-Sauce</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Lasagna</h4>
+                                <span class="price">€15,00</span>
+                            </div>
+                            <p>Hausgemacht mit Bolognese-Sauce</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Fettuccine Alfredo</h4>
+                                <span class="price">€17,50</span>
+                            </div>
+                            <p>Mit cremiger Parmesan-Butter-Sauce</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Salads -->
+                <div class="menu-category">
+                    <h3>🥗 Salate</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Caprese Salat</h4>
+                                <span class="price">€12,00</span>
+                            </div>
+                            <p>Tomaten, Mozzarella, Basilikum, Balsamico</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Italienischer Salat</h4>
+                                <span class="price">€11,50</span>
+                            </div>
+                            <p>Gemischte Blätter mit Gemüse und Vinaigrette</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Caesar Salat</h4>
+                                <span class="price">€13,00</span>
+                            </div>
+                            <p>Mit Parmesan, Croutons und Caesar-Dressing</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Drinks -->
+                <div class="menu-category">
+                    <h3>🍷 Getränke</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Italienischer Wein</h4>
+                                <span class="price">ab €6,00</span>
+                            </div>
+                            <p>Auswahl an Rot- und Weißweinen</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Prosecco</h4>
+                                <span class="price">€8,50</span>
+                            </div>
+                            <p>Frischer italienischer Schaumwein</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Softdrinks & Wasser</h4>
+                                <span class="price">€3,00</span>
+                            </div>
+                            <p>Verschiedene Sorten</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Über a tavola!</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Willkommen bei a tavola! – Ihrem authentischen italienischen Restaurant in Frankfurt. Seit Jahren servieren wir unseren Gästen echte italienische Küche mit frischen Zutaten und traditionellen Rezepten.</p>
+                    <p>Bei uns bedeutet „a tavola" – „zum Tisch" – dass Sie hier Familie sind. Ob ein schnelles Mittagessen, ein gemütlicher Abend mit Freunden oder eine Feier – wir schaffen die perfekte Atmosphäre für jeden Anlass.</p>
+                    <p>Unsere Pizzas werden in unserem Steinofen gebacken, unsere Pastas täglich frisch zubereitet. Qualität und Geschmack stehen an erster Stelle.</p>
+                </div>
+                <div class="about-highlights">
+                    <div class="highlight">
+                        <h4>🍕 Frische Zutaten</h4>
+                        <p>Täglich frisch und direkt aus Italien</p>
+                    </div>
+                    <div class="highlight">
+                        <h4>👨‍🍳 Handwerk</h4>
+                        <p>Traditionelle italienische Rezepte</p>
+                    </div>
+                    <div class="highlight">
+                        <h4>❤️ Leidenschaft</h4>
+                        <p>Mit Liebe zubereitet für Sie</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews">
+        <div class="container">
+            <h2>Was unsere Gäste sagen</h2>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="reviewer-info">
+                            <img src="assets/user_image1.png" alt="Reviewer">
+                            <div>
+                                <h4>Marco S.</h4>
+                                <div class="stars">⭐⭐⭐⭐⭐</div>
+                            </div>
+                        </div>
+                    </div>
+                    <p>"Fantastische Pizza und sehr freundliches Personal. Ich komme gerne wieder!"</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="reviewer-info">
+                            <img src="assets/user_image2.png" alt="Reviewer">
+                            <div>
+                                <h4>Julia K.</h4>
+                                <div class="stars">⭐⭐⭐⭐⭐</div>
+                            </div>
+                        </div>
+                    </div>
+                    <p>"Die Pasta schmeckt wie in Italien! Absolute Empfehlung für alle Italienfans."</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="reviewer-info">
+                            <h4>Thomas M.</h4>
+                            <div class="stars">⭐⭐⭐⭐⭐</div>
+                        </div>
+                    </div>
+                    <p>"Großartige Atmosphäre und leckeres Essen. Das beste italienische Restaurant in Frankfurt!"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Kontakt & Öffnungszeiten</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>📍 Adresse</h3>
+                    <p>Diesterwegstraße 4<br>60594 Frankfurt am Main</p>
+                    
+                    <h3>📞 Telefon</h3>
+                    <p><a href="tel:+496966124477">069 66124477</a></p>
+                    
+                    <h3>✉️ E-Mail</h3>
+                    <p><a href="mailto:hello@atavola.kitchen">hello@atavola.kitchen</a></p>
+                    
+                    <h3>🕐 Öffnungszeiten</h3>
+                    <p>Montag – Freitag: 12:00 – 23:30<br>
+                    Samstag: 12:00 – 23:30<br>
+                    Sonntag: 12:00 – 23:00</p>
+                </div>
+                <div class="contact-form">
+                    <h3>Reservierung</h3>
+                    <form>
+                        <input type="text" placeholder="Ihr Name" required>
+                        <input type="email" placeholder="Ihre E-Mail" required>
+                        <input type="tel" placeholder="Ihre Telefonnummer" required>
+                        <input type="date" required>
+                        <input type="time" required>
+                        <input type="number" placeholder="Anzahl Personen" min="1" required>
+                        <textarea placeholder="Spezielle Wünsche..." rows="4"></textarea>
+                        <button type="submit" class="submit-button">Reservierung anfragen</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 a tavola! Pizza & Pasta. Alle Rechte vorbehalten.</p>
+            <p>Diesterwegstraße 4, 60594 Frankfurt am Main</p>
+        </div>
+    </footer>
+</body>
+</html>
