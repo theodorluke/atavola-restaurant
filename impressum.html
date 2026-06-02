@@ -11,7 +11,12 @@
     <nav class="navbar">
         <div class="nav-container">
             <div class="logo">a tavola!</div>
-            <ul class="nav-menu">
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
                 <li><a href="index.html#home" class="nav-link">Startseite</a></li>
                 <li><a href="index.html#menu" class="nav-link">Speisekarte</a></li>
                 <li><a href="index.html#about" class="nav-link">Über uns</a></li>
@@ -85,5 +90,25 @@
             <p>Diesterwegstraße 4, 60594 Frankfurt am Main</p>
         </div>
     </footer>
+
+    <script>
+        // Hamburger Menu Toggle
+        const hamburger = document.getElementById('hamburger');
+        const navMenu = document.getElementById('navMenu');
+
+        hamburger.addEventListener('click', function() {
+            navMenu.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        });
+
+        // Close menu when a link is clicked
+        const navLinks = document.querySelectorAll('.nav-link');
+        navLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                navMenu.classList.remove('active');
+                hamburger.classList.remove('active');
+            });
+        });
+    </script>
 </body>
 </html>
